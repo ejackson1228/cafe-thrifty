@@ -1,0 +1,23 @@
+{
+  "name": "cafe-thrifty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejackson1228/cafe-thrifty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejackson1228/cafe-thrifty/issues"
+  },
+  "homepage": "https://github.com/ejackson1228/cafe-thrifty#readme",
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}

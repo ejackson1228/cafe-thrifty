@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration-line: none;
+  color: rgba(255, 255, 255, 0.865);
+}
+
+li {
+  display: inline-flex;
+  margin: 5px;
+  padding: 2px;
+}
+
+.nav-root{
+  background-color: tan;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-container {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-goods {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  font-family: monospace;
+  text-decoration-color: white;
+  font-size: 18px;
+}
+
+.nav-shop {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.nav-user {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 2px;
+  justify-content: right;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.nav-cart {
+  font-style: italic;
+  font-family: monospace;
+  text-decoration-color: white ;
+  font-size: 18px;
+}
+
+.landing-message {
+  background-color: beige;
+}
+
+.featured-items-container {
+  display: flex;
+}
+
+.featured-1 {
+  background-color: rgba(248, 239, 239, 0.757);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.addtocart-btn, .viewitem-btn {
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 3px;
+  margin: 3px;
+}

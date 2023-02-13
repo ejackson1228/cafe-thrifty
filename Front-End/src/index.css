@@ -93,3 +93,19 @@ li {
   border-radius: 3px;
   margin: 3px;
 }
+
+.item-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 2px solid tan;
+}
+
+.card-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -74,7 +74,8 @@ li {
 
 .landing-message {
   background-color: beige;
-}
+  padding: 120px;
+} 
 
 .featured-items-container {
   display: flex;
